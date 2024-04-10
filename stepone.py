@@ -19,8 +19,8 @@ youtube_query = {'like_count': {'$gt': 0}}
 youtube_fields = {'_id': 1, 'like_count': 1, 'channel_id': 1}
 
 # Get Instagram and YouTube data
-instagram_data = instagram_media.find(instagram_query).limit(5000)
-youtube_data = youtube_videos.find(youtube_query).limit(5000)
+instagram_data = instagram_media.find(instagram_query).limit(500000)
+youtube_data = youtube_videos.find(youtube_query).limit(500000)
 
 # Convert data to DataFrames
 df_instagram = pd.DataFrame(list(instagram_data))
