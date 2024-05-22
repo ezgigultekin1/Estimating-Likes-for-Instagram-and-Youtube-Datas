@@ -1,0 +1,27 @@
+Visual Analysis: Learning Curves
+Instagram Learning Curves
+GradientBoosting
+
+Observation: Both training and cross-validation errors are very low, indicating high model performance.
+NeuralNetwork
+
+Observation: High variance in the beginning with a significant reduction, indicating the model benefits from more training data.
+RandomForest
+
+Observation: Low error values suggesting a well-fitted model.
+XGBoost
+
+Observation: Similar to GradientBoosting, indicating robustness.
+YouTube Learning Curves
+GradientBoosting
+
+Observation: Higher errors compared to Instagram, indicating more complexity in YouTube data.
+NeuralNetwork
+
+Observation: Higher variance and error compared to Instagram, suggesting a need for further tuning or more complex features.
+RandomForest
+
+Observation: High cross-validation error indicating overfitting.
+XGBoost
+
+Observation: Moderate performance but still higher error compared to Instagram.
